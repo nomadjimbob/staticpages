@@ -1,0 +1,148 @@
+/**
+ * Dokuwiki Static Pages Plugin
+ *
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author     James Collins <james.collins@outlook.com.au>
+ * @link       https://github.com/nomadjimbon/staticpages
+ */
+
+.staticpages-frame {
+    width: 100%;
+    border: 0;
+}
+
+#staticpages {
+    position: relative;
+}
+
+#staticpages #staticuploads {
+    display: none;
+}
+
+#staticpages .buttons {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#staticpages #staticuploads td.done {
+    color: green;
+}
+
+#staticpages #staticblock .text {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    font-size: 2em;
+}
+
+#staticpages .staticpages-button {
+    margin-top: .25em;
+    margin-bottom: .25em;
+    margin: .25em;
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    border-radius: .25em;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: .375em .75em;
+    text-decoration: none;
+}
+
+#staticpages .staticpages-button:not(:disabled):hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+#staticpages table {
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#staticpages #staticpages-files input[type=checkbox] {
+    margin: 0 1rem 0 0;
+}
+
+#staticpages table th, #staticpages table td {
+    padding: .75em 1.5em;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+#staticpages table th {
+    background-color: #ddd;
+}
+
+#staticpages table th:nth-of-type(1), #staticpages table td:nth-of-type(1) {
+    text-align: left;
+}
+
+#staticpages table tbody tr:nth-of-type(even) {
+    background-color: #eee;
+}
+
+
+#staticpages .staticpages-status {
+    flex: 1;
+    text-align: right;
+}
+
+#staticpages .staticpages-status .text{
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: .375em .5em;
+    color: #6c757d;
+}
+
+#staticpages .staticpages-status .progress{
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: .375em .5em;
+    color: #39424a;
+}
+
+#staticpages .staticpages-tools {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#staticpages .staticpages-path {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000;
+    margin-bottom: .5em;
+}
+
+#staticpages .staticpages-path a {
+    color: #000;
+    text-decoration: none;
+    padding: .375em .5em;
+}
+
+#staticpages .staticpages-path a:hover {
+    text-decoration: underline;
+}
+
+#staticpages #staticpages-errors {
+    margin: 1em 0;
+}
+
+#staticpages #staticpages-errors ul {
+    margin-top: 1em;
+    /* list-style: none; */
+}
+
+#staticpages #staticpages-errors ul li {
+    color: #ff0000;
+    padding-bottom: .5rem;
+}
+
+#staticpages #staticpages-errors .staticpages-button {
+    display: none;
+}
+
+#staticpages .notice {
+    text-align: center;
+}

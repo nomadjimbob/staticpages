@@ -1,0 +1,3 @@
+====== Staticpages Packages ======
+
+Use this page to upload files to be used within DokuWiki pages.

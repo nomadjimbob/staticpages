@@ -1,0 +1,7 @@
+base   staticpages
+author James Collins
+email  james.collins@outlook.com.au
+date   2020-07-10
+name   Static Pages
+desc   Upload files and embed their content within a page
+url    https://www.dokuwiki.org/plugin:staticpages
